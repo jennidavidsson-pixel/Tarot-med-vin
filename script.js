@@ -14,3 +14,13 @@ document.addEventListener('DOMContentLoaded', () => {
         mainContent.style.opacity = '1';
     }, 100);
 });
+document.addEventListener('DOMContentLoaded', () => {
+    // Gör så att sidan tonar in mjukt när man öppnar den
+    const mainContent = document.querySelector('.container');
+    mainContent.style.opacity = '0';
+    mainContent.style.transition = 'opacity 1.5s ease-in';
+    
+    setTimeout(() => {
+        mainContent.style.opacity = '1';
+    }, 100);
+});
