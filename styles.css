@@ -221,3 +221,17 @@ footer {
     font-size: 0.8rem;
     opacity: 0.6;
 }
+.bottom-image-container {
+    margin: 40px auto;
+    max-width: 500px; /* Justera bredden efter önskemål */
+    padding: 0 20px;
+}
+
+.bottom-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Ger mjuka hörn */
+    border: 1px solid rgba(197, 160, 89, 0.3); /* En tunn guldkant */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); /* Skapar djup */
+    opacity: 0.9; /* Gör att den smälter in lite bättre i bakgrunden */
+}
